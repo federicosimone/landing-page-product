@@ -6,3 +6,7 @@ nav ul li a {
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.navbarItem:hover {
+    color: #2e45cc;
+}

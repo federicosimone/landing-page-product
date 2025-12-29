@@ -27,7 +27,7 @@ export default function Header() {
 
                         {
                             navbarList.map((item) => {
-                                return <li key={item.id}><a className="text-decoration-none" href={item.link}>{item.title}</a></li>
+                                return <li key={item.id}><a className={`text-decoration-none ${style.navbarItem}`} href={item.link}>{item.title}</a></li>
                             })
                         }
                     </ul>
