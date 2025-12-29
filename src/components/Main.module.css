@@ -20,6 +20,7 @@
 
 .fontSize08 {
     font-size: 0.8rem;
+    color: #3d3a38;
 }
 
 .imgContainer {
@@ -30,4 +31,9 @@
 
 .yellow {
     color: rgb(255, 205, 3);
+}
+
+.title {
+    font-size: 3rem;
+    color: #3d3a38;
 }

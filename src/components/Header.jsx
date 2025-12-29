@@ -37,7 +37,7 @@ export default function Header() {
 
                         <div className="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div className="offcanvas-header">
-                                <img src={logo} alt="Logo" width="50" height="50" className="d-inline-block align-text-top" />
+                                <img src={logo} alt="Logo" width="60" height="60" className="d-inline-block align-text-top" />
                                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
@@ -45,7 +45,7 @@ export default function Header() {
 
                                     {
                                         navbarList.map((item) => {
-                                            return <li className="pb-3" key={item.id}><a className="text-decoration-none" href={item.link}>{item.title}</a></li>
+                                            return <li className="pb-3" key={item.id}><a className={`text-decoration-none ${style.navbarItem}`} href={item.link}>{item.title}</a></li>
                                         })
                                     }
                                 </ul>
