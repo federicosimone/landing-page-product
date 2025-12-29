@@ -29,7 +29,7 @@ function Main() {
                 </div>
             </div>
             {/*paragrafi con titolo*/}
-            <div className="container">
+            <div className="container py-5 px-5">
                 <div className="row">
                     <div className="col-sm-12 col-md-4">
                         {
