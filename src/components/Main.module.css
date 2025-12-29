@@ -13,13 +13,17 @@
 }
 
 .blueduck {
-    background-image: url(../assets/invisible.png);
-    min-height: 450px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    max-width: 250px;
+    padding-right: 15px;
+
 }
 
 .paragrafi {
     font-size: 0.8rem;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

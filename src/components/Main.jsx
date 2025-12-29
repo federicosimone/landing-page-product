@@ -1,4 +1,5 @@
 import style from './Main.module.css'
+import blueduck from '../assets/invisible.png'
 
 const paragrafi = [
     { id: 1, title: "Lunga durata della batteria", text: "Goditi ore di assistenza continua nella risoluzione dei bug grazie alla lunga durata della 'batteria' (ovvero, la tua pazienza) della paperella di gomma." },
@@ -26,37 +27,42 @@ function Main() {
 
                     </div>
                 </div>
-                {/*paragrafi con titolo*/}
-                <div className="row">
-
-                    {
-                        paragrafi.map((paragrafo1) => {
-                            return (
-                                <div className="col-sm-12 text-center px-2 py-3">
-                                    <h3 className="fw-semibold">{paragrafo1.title}</h3>
-                                    <p className={style.paragrafi}>{paragrafo1.text}</p>
-                                </div>)
-                        })
-
-                    }
-                </div>
-                {/*immagine papero blu*/}
-                <div className={style.blueduck}></div>
-                {/*paragrafi con titolo*/}
-                <div className="row">
-                    {
-                        paragrafi2.map((paragrafo2) => {
-                            return (
-                                <div className="col-sm-12 text-center px-2 py-3">
-                                    <h3 className="fw-semibold">{paragrafo2.title}</h3>
-                                    <p className={style.paragrafi}>{paragrafo2.text}</p>
-                                </div>)
-                        })
-
-                    }
-                </div>
-
             </div>
+            {/*paragrafi con titolo*/}
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12 col-md-4">
+                        {
+                            paragrafi.map((paragrafo1) => {
+                                return (
+                                    <div className=" text-center px-2 py-3">
+                                        <h3 className="fw-semibold">{paragrafo1.title}</h3>
+                                        <p className={style.paragrafi}>{paragrafo1.text}</p>
+                                    </div>)
+                            })
+
+                        }
+                    </div>
+
+                    {/*immagine papero blu*/}
+                    <div className={`${style.imgContainer} col-sm-12 col-md-4`}><img className={style.blueduck} src={blueduck} alt="blueduck" /></div>
+                    {/*paragrafi con titolo*/}
+                    <div className="col-sm-12 col-md-4">
+                        {
+                            paragrafi2.map((paragrafo2) => {
+                                return (
+                                    <div className="text-center px-2 py-3">
+                                        <h3 className="fw-semibold">{paragrafo2.title}</h3>
+                                        <p className={style.paragrafi}>{paragrafo2.text}</p>
+                                    </div>)
+                            })
+
+                        }
+                    </div>
+                </div>
+            </div>
+
+
         </>
     )
 }
