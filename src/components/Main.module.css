@@ -1,0 +1,13 @@
+.duck {
+    background-image: url(../assets/banner-image.png);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.yellowBg {
+    background-image: url(../assets/banner-bg.png);
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+}

@@ -19,7 +19,7 @@ export default function Header() {
                     {/*LOGO*/}
                     <div>
                         <a className="navbar-brand" href="#">
-                            <img src={logo} alt="Logo" width="50" height="50" className="d-inline-block align-text-top" />
+                            <img src={logo} alt="Logo" width="50" height="50" className="d-inline-block align-text-top ms-2" />
                         </a>
                     </div>
                     {/*LISTA NAVBAR*/}
