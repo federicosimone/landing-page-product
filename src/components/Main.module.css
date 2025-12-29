@@ -1,6 +1,6 @@
 .duck {
     background-image: url(../assets/banner-image.png);
-    min-height: 500px;
+    min-height: 450px;
     background-size: cover;
     background-position: center;
 }
@@ -8,6 +8,18 @@
 .yellowBg {
     background-image: url(../assets/banner-bg.png);
     background-size: cover;
-    min-height: 500px;
+    min-height: 450px;
     background-position: center;
+}
+
+.blueduck {
+    background-image: url(../assets/invisible.png);
+    min-height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.paragrafi {
+    font-size: 0.8rem;
 }
