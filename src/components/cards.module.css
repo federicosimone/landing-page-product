@@ -1,0 +1,16 @@
+.duckCard {
+    width: 18rem;
+
+}
+
+.yellow {
+    color: rgb(255, 205, 3);
+}
+
+.fontSize08 {
+    font-size: 0.8rem;
+}
+
+.price {
+    color: green;
+}
