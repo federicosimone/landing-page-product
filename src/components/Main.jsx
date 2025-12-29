@@ -37,29 +37,52 @@ function Main() {
                                 return (
                                     <div className=" text-center px-2 py-3">
                                         <h3 className="fw-semibold">{paragrafo1.title}</h3>
-                                        <p className={style.paragrafi}>{paragrafo1.text}</p>
+                                        <p className={style.fontSize08}>{paragrafo1.text}</p>
                                     </div>)
                             })
-
                         }
                     </div>
 
                     {/*immagine papero blu*/}
                     <div className={`${style.imgContainer} col-sm-12 col-md-4`}><img className={style.blueduck} src={blueduck} alt="blueduck" /></div>
                     {/*paragrafi con titolo*/}
+
                     <div className="col-sm-12 col-md-4">
                         {
                             paragrafi2.map((paragrafo2) => {
                                 return (
                                     <div className="text-center px-2 py-3">
                                         <h3 className="fw-semibold">{paragrafo2.title}</h3>
-                                        <p className={style.paragrafi}>{paragrafo2.text}</p>
+                                        <p className={style.fontSize08}>{paragrafo2.text}</p>
                                     </div>)
                             })
 
                         }
                     </div>
                 </div>
+            </div>
+            <div className={`container text-center ${style.fontSize08}`}>
+                <h2 className="fw-semibold pb-3">Cosa ne pensano i nostri sviluppatori</h2>
+                <div className="row">
+
+                    <div className="col-sm-1 col-md-4">
+                        <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. E' anche un ottimo antistress nelle giorate difficili!"</p>
+                        <div className={` ${style.yellow}`}><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p className="fw-semibold pt-2">David William - Feb 22, 2023</p>
+                    </div>
+                    <div className="d-none d-md-block col-md-4">
+                        <p>"Non avrei mai immaginato quanto una semplice paperella di gomma potesse fare la differenza. È incredibile come verbalizzare i problemi davanti alla paperella mi aiuti a vedere soluzioni che prima non notavo. Inoltre, è carinissima sulla mia scrivania!"</p>
+                        <div className={` ${style.yellow}`}><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p className="fw-semibold pt-2">Emma Turner - April 5, 2023</p>
+                    </div>
+                    <div className="d-none d-md-block col-md-4">
+                        <p>"Da quando ho adottato la paperella di gomma, il mio processo di debugging è migliorato notevolmente. La trovo molto utile per schiarirmi le idee e trovare errori nascosti. La porto sempre con me, ovunque vada!"</p>
+                        <div className={`${style.yellow}`}><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p className="fw-semibold pt-2">Rachel Bryan - April 18, 2023</p>
+                    </div>
+
+                </div>
+
             </div>
 
 
