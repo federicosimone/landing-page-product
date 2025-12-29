@@ -14,7 +14,7 @@ const navbarList = [
 export default function Header() {
     return (
         <>
-            <nav className="navbar bg-body-tertiary">
+            <nav className={`navbar bg-body-tertiary ${style.navbar}`}>
                 <div className="container-fluid">
                     {/*LOGO*/}
                     <div>

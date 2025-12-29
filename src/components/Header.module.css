@@ -6,3 +6,10 @@ nav ul li a {
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
