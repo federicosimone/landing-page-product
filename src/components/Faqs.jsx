@@ -79,7 +79,7 @@ function Faqs() {
                         </div>
                         <div className="col-12 col-md-4 text-center pb-2">
                             <div><i className="fa-solid fa-coins fs-3 pb-2"></i></div>
-                            <h4 className="fw-bold">Rimbordo garantito</h4>
+                            <h4 className="fw-bold">Rimborso garantito</h4>
                             <p className={`accordion-body ${style.faqsText}`}>Ti rimborsiamo se la paperella fa quack</p>
                         </div>
                     </div>

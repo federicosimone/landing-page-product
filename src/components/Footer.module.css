@@ -15,3 +15,8 @@ footer {
 
     font-size: 0.8em;
 }
+
+.socialIcon:hover {
+
+    cursor: pointer;
+}
