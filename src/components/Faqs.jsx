@@ -65,7 +65,7 @@ function Faqs() {
                         </div>
                     </div>
                 </div>
-                <div id="icons" className="container mt-5">
+                <div id="icons" className="container mt-5 mb-5">
                     <div className="row">
                         <div className="col-12 col-md-4 text-center pb-2">
                             <div><i className="fa-regular fa-star fs-3 pb-2"></i></div>
