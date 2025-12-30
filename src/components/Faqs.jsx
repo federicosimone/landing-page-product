@@ -65,6 +65,25 @@ function Faqs() {
                         </div>
                     </div>
                 </div>
+                <div id="icons" className="container mt-5">
+                    <div className="row">
+                        <div className="col-12 col-md-4 text-center pb-2">
+                            <div><i className="fa-regular fa-star fs-3 pb-2"></i></div>
+                            <h4 className="fw-bold">100% Prodotto di qualità</h4>
+                            <p className={`accordion-body ${style.faqsText}`}>Abbiamo anche la possibilità di ritiro direttamente dallo stagno</p>
+                        </div>
+                        <div className="col-12 col-md-4 text-center pb-2">
+                            <div><i class="fa-solid fa-bag-shopping fs-3 pb-2"></i></div>
+                            <h4 className="fw-bold">Spedizione gratuita</h4>
+                            <p className={`accordion-body ${style.faqsText}`}>Dal magazzino alla scrivania</p>
+                        </div>
+                        <div className="col-12 col-md-4 text-center pb-2">
+                            <div><i className="fa-solid fa-coins fs-3 pb-2"></i></div>
+                            <h4 className="fw-bold">Rimbordo garantito</h4>
+                            <p className={`accordion-body ${style.faqsText}`}>Ti rimborsiamo se la paperella fa quack</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
