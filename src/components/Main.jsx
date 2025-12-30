@@ -1,6 +1,7 @@
 import style from './Main.module.css'
 import blueduck from '../assets/invisible.png'
 import Cards from '../components/Cards'
+import Faqs from './Faqs'
 
 const paragrafi = [
     { id: 1, title: "Lunga durata della batteria", text: "Goditi ore di assistenza continua nella risoluzione dei bug grazie alla lunga durata della 'batteria' (ovvero, la tua pazienza) della paperella di gomma." },
@@ -87,6 +88,7 @@ function Main() {
             </div>
 
             <Cards />
+            <Faqs />
 
 
         </>
